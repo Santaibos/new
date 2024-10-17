@@ -1,11 +1,11 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=cloudvpn.shop
+DOMAIN=virtualtunneling.tech
 sub=$(cat /root/subdomainx)
-dns=${sub}.cloudvpn.shop
-dns2=*.${sub}.cloudvpn.shop
-CF_ID=hjjhuh601@gmail.com
-CF_KEY=960e40e91eab721c2836bb250ddfc8a8b834f
+dns=${sub}.virtualtunneling.tech
+dns2=*.${sub}.virtualtunneling.tech
+CF_ID=vpncyber673@gmail.com
+CF_KEY=2186e4da5f4515ed99965317d4ca388bba2ce
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
@@ -43,12 +43,12 @@ echo $dns > /root/domain
 echo "$dns" > /etc/xray/domain
 echo "$dn!MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-DOMAIN=cloudvpn.shop
+DOMAIN=virtualtunneling.tech
 sub=$(cat /root/subdomainx)
-dns=${sub}.cloudvpn.shop
-dns2=*.${sub}.cloudvpn.shop
-CF_ID=hjjhuh601@gmail.com
-CF_KEY=960e40e91eab721c2836bb250ddfc8a8b834f
+dns=${sub}.virtualtunneling.tech
+dns2=*.${sub}.virtualtunneling.tech
+CF_ID=vpncyber673@gmail.com
+CF_KEY=2186e4da5f4515ed99965317d4ca388bba2ce
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
