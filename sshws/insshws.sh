@@ -1,6 +1,6 @@
 #!/bin/bash
 #installer Websocker tunneling 
-url="https://raw.githubusercontent.com/warouhh/new/main"
+url="https://raw.githubusercontent.com/Santaibos/new/main"
 cd
 
 #Install Script Websocket-SSH Python
