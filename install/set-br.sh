@@ -2,17 +2,17 @@
 
 apt install rclone
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/warouhh/new/main/install/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/Santaibos/new/main/install/rclone.conf"
 git clone  https://github.com/casper9/wondershaper.git
 cd wondershaper
 make install
 cd
 rm -rf wondershaper
 cd /usr/bin
-wget -O backup "https://raw.githubusercontent.com/warouhh/new/main/menu/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/warouhh/new/main/menu/restore.sh"
-wget -O cleaner "https://raw.githubusercontent.com/warouhh/new/main/install/cleaner.sh"
-wget -O xp "https://raw.githubusercontent.com/warouhh/new/main/install/xp.sh"
+wget -O backup "https://raw.githubusercontent.com/Santaibos/new/main/menu/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/Santaibos/new/main/menu/restore.sh"
+wget -O cleaner "https://raw.githubusercontent.com/Santaibos/new/main/install/cleaner.sh"
+wget -O xp "https://raw.githubusercontent.com/Santaibos/new/main/install/xp.sh"
 wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/clearlog.sh"
 chmod +x /usr/bin/backup
 chmod +x /usr/bin/restore
@@ -53,7 +53,7 @@ service cron restart > /dev/null 2>&1
 
 # > Pasang Limit
 
-#wget "https://raw.githubusercontent.com/warouhh/new/main/bin/limit.sh" >/dev/null 2>&1
+#wget "https://raw.githubusercontent.com/Santaibos/new/main/bin/limit.sh" >/dev/null 2>&1
 
 #chmod +x limit.sh && bash limit.sh >/dev/null 2>&1
     
